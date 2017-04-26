@@ -1,0 +1,183 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+/*drop down lists*/
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    color:#f2f2f2;
+    background-color: #4788d1;
+}
+
+/*hover over navbar words*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+
+    color:#f2f2f2;
+    background-color: #4788d1;
+}
+
+#hex_container {
+    margin-top:-1.55%;
+    margin-bottom: 1%;
+    background: #e9ebf2; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#e5eefc, #bbcde8, #96b6ea, #375e9b); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#e5eefc, #bbcde8, #96b6ea, #375e9b); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#e5eefc, #bbcde8, #96b6ea, #375e9b); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#e5eefc, #bbcde8, #96b6ea, #375e9b); /* Standard syntax */
+    background: -ms-linear-gradient(#e5eefc, #bbcde8, #96b6ea, #375e9b);
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#000000)); /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-radial-gradient(circle, #e5eefc, #bbcde8, #96b6ea, #375e9b); /* Safari 5.1+, Chrome 10+ */
+    background: -moz-radial-gradient(circle, #e5eefc, #bbcde8, #96b6ea, #375e9b); /* Firefox 3.6+ */ 
+    background: -ms-radial-gradient(circle, #e5eefc, #bbcde8, #96b6ea, #375e9b); /* IE 10 */
+}
+
+#our_work {
+    background-color: #0b3475;
+    color: white;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    margin-bottom: 8.5%;
+    font-size:48px;
+}
+
+#about_head_container {
+
+}
+
+#about_head_img {
+    color: #FFFFFF;
+    margin-bottom: 16%;
+}
+
+#about_head_text {
+    color: #FFFFFF;
+    font-size: 45px;
+    margin-top:-25%;
+    margin-bottom: 25%;
+}
+
+#contact_info {
+    margin-top: 2%;
+}
+
+#contact_container {
+    border-radius: 12px;
+    background: #fdfdfd; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#fdfdfd, #f9f9f9, #f3f3f3); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#fdfdfd, #f9f9f9, #f3f3f3); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#fdfdfd, #f9f9f9, #f3f3f3); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#fdfdfd, #f9f9f9, #f3f3f3); /* Standard syntax */
+    background: -ms-linear-gradient(#fdfdfd, #f9f9f9, #f3f3f3);
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#000000)); /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-radial-gradient(circle, #fdfdfd, #f9f9f9, #f3f3f3); /* Safari 5.1+, Chrome 10+ */
+    background: -moz-radial-gradient(circle, #fdfdfd, #f9f9f9, #f3f3f3); /* Firefox 3.6+ */ 
+    background: -ms-radial-gradient(circle, #fdfdfd, #f9f9f9, #f3f3f3); /* IE 10 */    
+    margin-top:2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px; 
+}
+
+.navbar-inverse{
+    background-color:#0b3475;
+    border-color:#0b3475;
+}
+
+.navbar-inverse .navbar-nav >li >a {
+    color:#f2f2f2;
+}
+
+#services-img{
+    size:60%;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
