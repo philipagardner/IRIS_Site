@@ -20,7 +20,6 @@
 }
 
 #hex_container {
-    margin-top:-1.55%;
     margin-bottom: 1%;
     background: #e9ebf2; /* For browsers that do not support gradients */
     background: -webkit-radial-gradient(#e5eefc, #bbcde8, #96b6ea, #375e9b); /* Safari 5.1 to 6.0 */
@@ -39,7 +38,7 @@
     color: white;
     padding-top: .5%;
     padding-bottom: .5%;
-    margin-bottom: 8.5%;
+    margin-bottom: 11.5%;
     font-size:48px;
 }
 
