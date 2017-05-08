@@ -33,6 +33,7 @@ section {
 	display: grid;
 	grid-template-columns: repeat(var(--Nhexa), 1fr);
 	grid-gap: var(--gap);
+
 }
 
 article {
@@ -45,6 +46,7 @@ article {
 	color: #fff;
 	overflow: hidden;
 }
+
 article:nth-child(2n) {
   margin: calc(var(--size) * -.5)
 					calc(var(--size) * -.25)
