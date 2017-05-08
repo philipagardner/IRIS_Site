@@ -6,25 +6,22 @@
 
 /* Global Styles */
 
-#banner_img_container{
-    position:initial; 
+#home_banner_img_container{
+    position: relative;
 }
 
 #hero_text{
-
+    color:#0b3475;
 }
 
-.cont {
-  width: auto;
-  /*
-  height: 22%;
-  margin-bottom: 35%;
-  background-image: url("paper.gif");
-  */
+#home_banner_row {
+    overflow-y: overlay;
+    overflow-x: hidden;
+    padding-bottom:10px;
 }
 
 
-.hero-img {
+#home_banner_img {
   position: absolute; 
   top: 0; 
   right: 0; 
@@ -40,6 +37,7 @@
     padding-top: .5%;
     padding-bottom: .5%;
     font-size:48px;
+    border-bottom: 6px #0b3475;
 }
 
 #home_footer_img {
@@ -72,8 +70,12 @@
     background-color: #4788d1;
 }
 
+#hex_subcontainer {
+    margin-top: 8%;
+}
+
 #hex_container {
-    padding-top:5%;
+    height:auto !important;
     margin-bottom: 1%;
     background: #e9ebf2; /* For browsers that do not support gradients */
     background: -webkit-radial-gradient(#e5eefc, #bbcde8, #96b6ea, #375e9b); /* Safari 5.1 to 6.0 */
@@ -87,6 +89,48 @@
     background: -ms-radial-gradient(circle, #e5eefc, #bbcde8, #96b6ea, #375e9b); /* IE 10 */
 }
 
+#services_banner_container {
+    color: #FFFFFF;
+
+}
+
+#services_banner_rightcolumn {
+    background: rgba(71, 136, 209, 0.3); /* navy background with 30% opacity */
+    padding-bottom: 8%;
+}
+
+#services_banner {
+    margin-top: 20px;
+    background-color: #0b3475;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#services_footer {
+    margin-top: 20px;
+}
+
+#services_header {
+    color: #0b3475;
+    font-size: 48px;
+    padding-top: 5px;
+}
+
+#services_bottom_header {
+    margin-top: 20px;
+    color: #0b3475;
+}
+
+#about_iris_header {
+    color: #0b3475;
+    font-size: 43px;
+    margin-top: 1.5%;
+}
+
+#about_iris_text {
+    font-size: 25px;
+    padding-bottom: 5%;
+}
 
 #Header_By_Banner {
     color: #0b3475;
@@ -99,15 +143,28 @@
 
 #about_head_img {
     color: #FFFFFF;
-    margin-bottom: 16%;
 }
 
 #about_head_text {
-    color: #FFFFFF;
+    font-weight: bold;
+    color: #0b3475;
     font-size: 45px;
-    margin-top:-25%;
-    margin-bottom: 25%;
 }
+
+#our_team_container {
+    background: rgba(11, 52, 117, 0.8); /* navy background with 30% opacity */
+    color: #FFFFFF;
+    padding: 25px;
+}
+
+#our_team_header {
+    font-size: 40px;
+}
+
+#our_team_text {
+    background-color: #f9f9f9;
+}
+
 
 #contact_info {
     margin-top: 2%;
@@ -210,7 +267,7 @@ header.carousel .fill {
 /* Footer Styles */
 
 footer {
-    margin: 50px 0;
+    margin: 45px 0;
 }
 
 /* Responsive Styles */
@@ -230,4 +287,8 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+#iris_footer {
+    background-color: #f4f9ff;
 }
