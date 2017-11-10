@@ -90,7 +90,6 @@
 }
 
 #services_banner_container {
-    color: #FFFFFF;
 
 }
 
@@ -101,7 +100,7 @@
 
 #services_banner {
     margin-top: 20px;
-    background-color: #0b3475;
+    //background-color: #0b3475;
     padding-top: 20px;
     padding-bottom: 20px;
 }
